@@ -16,6 +16,10 @@ python keygen_user.py
     - This will generate public key and private key of the user (We assume 1 user has the access to the plaintext data)
     - The user key pair will save to "keygen_user_logs" folder
 
+python keygen_moac.py
+    - This will generate public key and private key of the MOAC (MOAC = Master of All Cluster)
+    - The MOAC key pair will save to "keygen_moac_logs" folder
+
 Phase 2: Encryption of sensors inside the planthouse.------
 
 python ph_1_aes_encrypt.py
