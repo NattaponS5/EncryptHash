@@ -30,7 +30,7 @@ def generate_aes_key():
 start_time = time.time()
 
 # Input and output directories
-input_folder = "plant_house_logs_400"
+input_folder = "plant_house_logs_400_1"
 output_folder = "ciphertext_logs"
 
 # Ensure output directory exists for encryption
