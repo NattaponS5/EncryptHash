@@ -16,9 +16,9 @@ def save_decrypted_data(decrypted_data, output_file):
 
 def decrypt_ciphertext_with_aes_key(directory):
     # Input and output directories
-    input_folder = f"ciphertext_logs"
-    output_folder = f"Retrieved_PT"
-    key_folder = f"aes_keys_logs"
+    input_folder = f"ciphertext_logs_5"
+    output_folder = f"Retrieved_PT_5"
+    key_folder = f"dec_aes_key_logs_5"
 
     # Ensure output directory exists for decryption
     if not os.path.exists(output_folder):

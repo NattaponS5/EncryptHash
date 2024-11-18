@@ -29,8 +29,8 @@ def hash_files_in_directory(input_directory, output_directory):
                 f.write(file_hash)
     return hashes
 start_time = time.time()
-input_directory = "plant_house_logs_400_1"
-output_directory = "hash_plant_house_logs_400"
+input_directory = "plant_house_logs_400_5"
+output_directory = "hash_plant_house_logs_400_5"
 file_hashes = hash_files_in_directory(input_directory, output_directory)
 
 for filename, file_hash in file_hashes.items():
