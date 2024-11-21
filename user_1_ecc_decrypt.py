@@ -41,8 +41,8 @@ def decrypt_data_with_shared_secret(shared_secret, ciphertext):
 
 def decrypt_aes_keys_with_ecc_private_keys(directory):
     # date = extract_date_from_directory(directory)
-    enc_aes_keys_folder = f"enc_aes_key_logs_5"
-    dec_aes_keys_folder = f"dec_aes_key_logs_5"
+    enc_aes_keys_folder = f"enc_aes_key_logs_9"
+    dec_aes_keys_folder = f"dec_aes_key_logs_9"
     user_key_folder = "keygen_user_logs"
     ph_key_folder = "keygen_planthouse_logs"
 

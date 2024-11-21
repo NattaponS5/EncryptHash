@@ -27,8 +27,8 @@ def encrypt_data_with_shared_secret(shared_secret, plaintext):
     return ciphertext
 
 def encrypt_aes_keys_with_ecc_keys():
-    aes_keys_folder = "aes_keys_logs_5"
-    enc_aes_keys_folder = "enc_aes_key_logs_5"
+    aes_keys_folder = "aes_keys_logs_9"
+    enc_aes_keys_folder = "enc_aes_key_logs_9"
     user_key_folder = "keygen_user_logs"
     ph_key_folder = "keygen_planthouse_logs"
 
