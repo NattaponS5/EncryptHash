@@ -14,11 +14,11 @@ def save_decrypted_data(decrypted_data, output_file):
         f.write(decrypted_data)
 
 
-def decrypt_ciphertext_with_aes_key(directory):
+def decrypt_ciphertext_with_aes_key():
     # Input and output directories
-    input_folder = f"ciphertext_logs_9"
-    output_folder = f"Retrieved_PT_9"
-    key_folder = f"dec_aes_key_logs_9"
+    input_folder = f"ciphertext_logs_8"
+    output_folder = f"Retrieved_PT_8"
+    key_folder = f"dec_aes_key_logs_8"
 
     # Ensure output directory exists for decryption
     if not os.path.exists(output_folder):
@@ -104,10 +104,9 @@ def decrypt_ciphertext_with_aes_key(directory):
 start_time = time.time()
 
 # please change to your project directory
-decrypt_ciphertext_with_aes_key(r"D:\SIIT Y4\2024\Cyber Crime\Project\EncryptHash")
+decrypt_ciphertext_with_aes_key()
 
 end_time = time.time()
 execution_time = end_time - start_time
 
 print("Execution time:", execution_time, "seconds")
-
